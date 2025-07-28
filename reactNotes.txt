@@ -1,0 +1,87 @@
+
+React :
+-it is javascript library.
+-it is use to create rich User Interface.
+-it is use to create single page application(SPA).
+-it is not framework.
+-react developed and maintain by facebook
+-latest version of react is react-19
+
+*Framework: collection of multiuple library
+
+*Software Prequisit 
+-nodejs 
+  node -v // it display node version
+-npm 
+ npm -v 
+-vs code
+
+*Technology Prequisit
+-html
+-css
+-javascript(basic to advanced, ES-5 and ES6, oops);
+
+*how to create react project 
+1.by using npx : no need to install configuration file 
+  step1:npx create-react-app appname 
+  step2:cd appname
+  step3:npm start 
+
+2.by using npm : need to install configuration file.
+  step1:npm install -g create-react-app
+  step2:create-react-app appname
+  step3:cd appname
+  step4:npm start 
+
+3.by using Vite : it create react project with minimum file.  
+
+*How to start react project 
+npm start // it will start react project in development mode and display output on browser with localhost:3000 port number
+
+Folder structure
+node_module folder: all dependecy will install in this folder.
+package.json file : all install dependecy entry will fouind here.
+package-lock.json file : it will contain detail description of all dependecy
+gitignore: avoid file to upload on git.
+publick: it contain only static file.
+src folder : actual development 
+
+-react project work on components 
+
+-components :-it is partial part of react app.
+             -it can be any part of react app, which we can reuse multiple time .
+
+-in react root components name is app             
+
+*in react there are two types of components
+1-function components: when our main focus is on UI Design 
+2-Class components: when we have to write complex logic for UI.
+
+Note: when we create component its file name must start with capital letter.
+
+
+*How to display component output 
+-import component and write its name as tag where you want.
+
+Q.What is JSX:
+-it stand for javascript and XML ,
+-it makes react code eassy, and allows us to write html code in react.
+-in jsx we need to wrap multiple element inside one parent element.
+
+*props(property):
+-it is parameter or function parameter which is use to pass data inside component.
+-it return data in object formate.
+-in function component we access props data by writting props.propsname
+-in class component we access props data by writting this.props.propsname
+
+*Functions and Events:
+*hover Events
+*onClick 
+
+Task1: create one function component with name MyDetailComp in which pass fname,mname,lname,mobile,gender,address as props and display it .
+Task2: create one Class component with name  in which pass fname,mname,lname,mobile,gender,address as props and display it .
+
+
+
+
+
