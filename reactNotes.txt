@@ -80,6 +80,29 @@ Q.What is JSX:
 
 Task1: create one function component with name MyDetailComp in which pass fname,mname,lname,mobile,gender,address as props and display it .
 Task2: create one Class component with name  in which pass fname,mname,lname,mobile,gender,address as props and display it .
+=======================================================================
+29/7/25
+
+*State : 
+-it is use to handle essesntial data in class component.
+-it return data in object formate.
+-we write State in class component constructor.
+-we can access state data in class component by writting this.state.property 
+
+-after react version 16 we can use state in function component by using hooks (useState Hook); 
+
+*setState() method : it allows us to manupulate state propertuy values.
+
+*destructuring : creating constant variable to store data in it.
+
+*destructuring of state
+*destructuring of props 
+
+Task1: crete cone class component with name myCounter having state with on property having name count with value 0, you have create three button one will increment , second will decrement and thired will reset value.
+
+*How to access Images in React component
+*how to create constant file and accesss data from it.
+
 
 
 
