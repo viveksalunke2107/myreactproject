@@ -7,6 +7,7 @@ import MyDetailComp from './Task/Task1';
 import FriendsDetailComp from './components/Task2';
 import MyStateComp from './components/MyStateComp';
 import MyImagesComp from './components/MyImagesComp';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
@@ -29,12 +30,13 @@ function App() {
       {/* <FunctionComp></FunctionComp> */}
       {/* <FunctionComp name="Akshay" address="Pune" />
       <ClassComp  name="Vivek" address="Mumbai"/> */}
-     {/* <HoverComp/> */}
-     {/* <MyDetailComp name="Vivek Kisan Salunke" no="6565" gender="Male" add="pune" />
-     <FriendsDetailComp name="Akshya Rajabhau Kanade" no="5454" gender="Male" add="mumbai"/> */}
+     {/* <HoverComp/>
+     <MyDetailComp name="Vivek Kisan Salunke" no="6565" gender="Male" add="pune" />
+     <FriendsDetailComp name="Akshya Rajabhau Kanade" no="5454" gender="Male" add="mumbai"/>
 
-     {/* <MyStateComp city="Pune" pin={411014} country="India"/> */}
-     <MyImagesComp />
+     <MyStateComp city="Pune" pin={411014} country="India"/>
+     <MyImagesComp /> */}
+     <ParentComp/>
     </div>
   );
 }

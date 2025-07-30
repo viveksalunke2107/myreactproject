@@ -103,6 +103,45 @@ Task1: crete cone class component with name myCounter having state with on prope
 *How to access Images in React component
 *how to create constant file and accesss data from it.
 
+==================================================================
+30/7/25 
+
+*React Fragment: 
+-it is an alternative option for jsx.
+-it is use to remove unwanted element from react project.
+
+*component Interaction:
+-when we have to pass data from parent component to child component.
+-to perform component interaction they must have parent child relation in between component.
+
+*passing state data as props to child component
+*passing function as props to child component 
+
+*PureComponent :
+-it is to prevent unnecessary re-rendering of class component.
+-by performing shalow comparision it prevent unnecessary re-rendering of class component.
+-to achive this we have to extends class component with PureComponent.
+
+*React.memo():
+-it is to prevent unnecessary re-rendering of function component.
+-by performing shalow comparision it prevent unnecessary re-rendering of function component.
+-to achive this we need to pass function component name as parameter inside React.memo(componentName) method
+
+
+*We saw one vs code extention to create class and fuinction component
+
+rce : it generate class component
+rconst : it generate constructor with super method and state
+rfce : generayte normal function component
+rafce : generate arrow function component
+
+*How to use Bootstrap in react project 
+step1: install Bootstrap 
+      npm install bootstrap 
+step2: go to index.js file and import its path
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 
 class MyStateComp extends Component {
   constructor() {
@@ -22,8 +22,9 @@ class MyStateComp extends Component {
   render() {
     const {myName,salary,single} = this.state; // destructuring of state
     const {city,pin,country} = this.props; // destrucruting of props
+
     return (
-      <div>
+      <Fragment>
         <h2>This is My State Component</h2>
         {/* <div>Name :<strong>{this.state.myName}</strong></div> */}
         <div>Name :<strong>{myName}</strong></div>
@@ -39,7 +40,7 @@ class MyStateComp extends Component {
           Chnage State Data
         </button>{" "}
         <button
-          type="button"
+type="button"
           onClick={() =>
             this.setState((prevState) => ({
               myName: "Panchashil Wankhede",
@@ -57,7 +58,7 @@ class MyStateComp extends Component {
         <div>City:{city},</div>
         <div>Pin:{pin},</div>
         <div>Country:{country},</div>
-      </div>
+      </Fragment>
     );
   }
 }
