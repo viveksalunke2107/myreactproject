@@ -8,6 +8,10 @@ import FriendsDetailComp from './components/Task2';
 import MyStateComp from './components/MyStateComp';
 import MyImagesComp from './components/MyImagesComp';
 import ParentComp from './components/ParentComp';
+import CounterTaskComp from './Task/CounterTaskComp';
+import ConditionalRenComp from './components/ConditionalRenComp';
+import CssComp from './components/CssComp';
+import ListComp from './components/ListComp';
 
 function App() {
   return (
@@ -36,7 +40,11 @@ function App() {
 
      <MyStateComp city="Pune" pin={411014} country="India"/>
      <MyImagesComp /> */}
-     <ParentComp/>
+     {/* <ParentComp/> */}
+     {/* <CounterTaskComp/> */}
+     {/* <ConditionalRenComp/> */}
+     {/* <CssComp/> */}
+     <ListComp/>
     </div>
   );
 }

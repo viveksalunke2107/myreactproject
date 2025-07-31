@@ -1,0 +1,14 @@
+
+
+.txt-primary{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.txt-warning{
+    color: rgb(238, 255, 0);
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}

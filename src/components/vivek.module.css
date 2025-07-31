@@ -1,0 +1,15 @@
+
+
+.special{
+    color:red;
+    font-size: 30px;
+    text-transform: lowercase;
+    background-color: greenyellow;
+}
+.special:hover{
+    font-size: 35px;
+    background-color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px black;
+}

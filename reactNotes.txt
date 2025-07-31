@@ -140,6 +140,38 @@ step1: install Bootstrap
       npm install bootstrap 
 step2: go to index.js file and import its path
 
+==================================================
+31/7/25
+
+*we saw counter Task.
+
+*Conditional redering : display component output on the basis of condition.
+-there are four ways to display output conditionally 
+1. if else: if the condition is true if block will render otherwise else block.
+2. element as variable: in this we store data inside on variable and return that variable.
+3. use of ternary operator: it is an shorthand syntax of if else statment 
+               syntax:  (condition) ? truepart : false;
+4. use of short circuit(&&): it will display component output only if condition is true.
+                            -it is use for null checking.
+
+*How to use css in React component:
+-in react we use className property instead of class 
+
+1.internal css: inside an element we use style property with values
+2.external css: in this we create a seperate css file and import it inside component
+3.Module css : in react we use module css when we have to write css property for pertucular component. while creating module css file we have to use filename.module.css 
+
+*Virtual DOM:
+-in react instead of manipulating browser DOM directly react create virtual in its memory,where it does all necessary changes before browser DOM. virtual DOM changes what need to be changes. thats why react is fater than angular.
+
+
+
+Task: create new Class component having name EmpDetails containing stat with emp property holding array of object data for 7 employee id,name,post,salary,gender,city , display employee data inside table by using map meto
+
+
+
+
+
 
 
 
