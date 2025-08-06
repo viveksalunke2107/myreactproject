@@ -12,6 +12,10 @@ import CounterTaskComp from './Task/CounterTaskComp';
 import ConditionalRenComp from './components/ConditionalRenComp';
 import CssComp from './components/CssComp';
 import ListComp from './components/ListComp';
+import ClickCounterComp from './components/ClickCounterComp';
+import HoverCounterComp from './components/HoverCounterComp';
+import UserComp from './components/UserComp';
+import ErrorBoundaryComp from './components/ErrorBoundaryComp';
 
 function App() {
   return (
@@ -44,7 +48,25 @@ function App() {
      {/* <CounterTaskComp/> */}
      {/* <ConditionalRenComp/> */}
      {/* <CssComp/> */}
-     <ListComp/>
+     {/* <ListComp/> */}
+     {/* <ClickCounterComp/>
+     <HoverCounterComp/> */}
+     <ErrorBoundaryComp>
+         <UserComp name="Akshay"/>
+     </ErrorBoundaryComp>
+     <ErrorBoundaryComp>
+         <UserComp name="Vivek"/>
+     </ErrorBoundaryComp>
+     <ErrorBoundaryComp>
+         <UserComp name="Rahul"/>
+     </ErrorBoundaryComp>
+     <ErrorBoundaryComp>
+         <UserComp name="Nitesh"/>
+     </ErrorBoundaryComp>
+     
+     {/* <UserComp name="Vivek"/>
+     <UserComp name="Rahul"/>
+     <UserComp name="Nitesh"/> */}
     </div>
   );
 }

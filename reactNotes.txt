@@ -164,9 +164,64 @@ step2: go to index.js file and import its path
 *Virtual DOM:
 -in react instead of manipulating browser DOM directly react create virtual in its memory,where it does all necessary changes before browser DOM. virtual DOM changes what need to be changes. thats why react is fater than angular.
 
+Task: create new Class component having name EmpDetails containing stat with emp property holding array of object data for 7 employee id,name,post,salary,gender,city , display employee data inside table by using map method.
+================================================================================
+6/8/25
+
+*HOC(Higher Order component):
+-it is use to to share same(Comman) bussines logic with multiple component.
+-in this we use function component and share data from it 
+-in this function component we pass another component as parameter.
+
+*Error Boundary :
+-it is react component which is use to handler errors in component three which occures at the time of compenent rendering 
+-in this we use two class component lifecycle method 
+1.getDerivedStateFromError,2.ComponentDidCatch 
+1.getDerivedStateFromError: it is static method which execute automatically when error occure in component 
+2.ComponentDidCatch: it is use to display error log(error information);
 
 
-Task: create new Class component having name EmpDetails containing stat with emp property holding array of object data for 7 employee id,name,post,salary,gender,city , display employee data inside table by using map meto
+
+
+
+
+
+*Routing In React :
+-navigation of component and display it output(view);
+-to perform routing in react we use react-router-dom library.
+npm install react-router-dom 
+
+src folder 
+   layout folder 
+       -LoginComp
+       -NavComp 
+       -MainDashboardComp
+       -PageNotFoundComp 
+   RoutingFolder 
+      -mainRouting.js  file 
+   Hookes folder 
+      -ReactHooksComp 
+      -UseStateComp
+      -UseEffectComp 
+
+-HOC 
+-ErrorBoundary 
+-Form Validation 
+-Class component LifeCycle Method 
+-Hooks 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
