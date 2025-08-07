@@ -180,6 +180,31 @@ Task: create new Class component having name EmpDetails containing stat with emp
 1.getDerivedStateFromError: it is static method which execute automatically when error occure in component 
 2.ComponentDidCatch: it is use to display error log(error information);
 
+====================================================================================
+7/8/25 
+
+*How to display array of object data into table formate
+*How to display array of object data into card formate
+
+*Class Component Lifecycle method 
+-class component lifecycle comes with four phases
+1.Mounting Phase: when component initialized.
+  -constructor: when class object initialized it will execute 
+  -getDerivedStateFromProps : it is use to assign props data to an state.it is static method.
+  -render : it is use to display component output 
+  -ComponentDidMount: it execute once after component render.
+
+2.Update Pase: when DOM manipulation is done 
+   -shouldComponentUpdate: it decide there component get updated or not, it return boolean result , if it return true value then component will update otherwise not
+   -getSnapshotBeforeUpdate: it return state or props value before update of it.
+   -render: it is use to display component output 
+   -ComponentDidUpdate: it return state or props value after update of it.
+
+3.Unmounting Phase: when component deleted or remove 
+  -componentWillunMount: it will remove all external connection with component just before deleting of component
+4.ErrorPhase : when error get generated 
+  -getDerivedStateFromError: when error occure in component it execute automatically.
+  -ComponentDidCatch: it will display error log or information.
 
 
 

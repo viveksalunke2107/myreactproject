@@ -16,6 +16,8 @@ import ClickCounterComp from './components/ClickCounterComp';
 import HoverCounterComp from './components/HoverCounterComp';
 import UserComp from './components/UserComp';
 import ErrorBoundaryComp from './components/ErrorBoundaryComp';
+import EmpDetailComp from './Task/EmpDetailComp';
+import CompLifeCycleComp from './components/CompLifeCycleComp';
 
 function App() {
   return (
@@ -51,7 +53,7 @@ function App() {
      {/* <ListComp/> */}
      {/* <ClickCounterComp/>
      <HoverCounterComp/> */}
-     <ErrorBoundaryComp>
+     {/* <ErrorBoundaryComp>
          <UserComp name="Akshay"/>
      </ErrorBoundaryComp>
      <ErrorBoundaryComp>
@@ -62,8 +64,9 @@ function App() {
      </ErrorBoundaryComp>
      <ErrorBoundaryComp>
          <UserComp name="Nitesh"/>
-     </ErrorBoundaryComp>
-     
+     </ErrorBoundaryComp> */}
+     {/* <EmpDetailComp/> */}
+     <CompLifeCycleComp mycolor="Green"/>
      {/* <UserComp name="Vivek"/>
      <UserComp name="Rahul"/>
      <UserComp name="Nitesh"/> */}
