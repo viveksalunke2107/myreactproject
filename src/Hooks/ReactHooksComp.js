@@ -1,18 +1,25 @@
 
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet,Link } from 'react-router-dom';
 
 
 const ReactHooksComp = () => {
     return (
-        <div>
-            {/* <h2>This is react Hooks Component</h2> */}
-            <div className='card border-danger' >
-                <div className='card-header border-danger '></div>
-            </div>
-            <Outlet/>
+    <div className="container">
+      <h2>This is ReactHooks</h2>
+      <div className="card border-primary">
+        <div className="card-header border-primary">
+         <Link to="usestate" className='btn btn-primary btn-sm'>usestate</Link>{" "}
+        <Link to="useeffect" className='btn btn-primary btn-sm'>useeffect</Link>{" "}
+          
         </div>
-    )
-}
+        <div className="card-body border-primary">
+          <Outlet />
+        </div>
+        <div className="card-footer border-primary">footer</div>
+      </div>
+    </div>
+  );
+};
 
 export default ReactHooksComp
