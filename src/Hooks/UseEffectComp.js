@@ -1,9 +1,9 @@
 import React from 'react'
 
-function UseEffectComp() {
+const UseEffectComp = () => {
     return (
         <div>
-            
+            <h2>This is useEffect Hoook componet</h2>
         </div>
     )
 }

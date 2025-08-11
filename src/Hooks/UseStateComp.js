@@ -1,9 +1,10 @@
+
 import React from 'react'
 
-function UseStateComp() {
+const UseStateComp = () => {
     return (
         <div>
-            
+            <h2>This is useState hook Component</h2>
         </div>
     )
 }

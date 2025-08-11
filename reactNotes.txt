@@ -207,14 +207,30 @@ Task: create new Class component having name EmpDetails containing stat with emp
   -ComponentDidCatch: it will display error log or information.
 
 
-
-
-
-
 *Routing In React :
 -navigation of component and display it output(view);
 -to perform routing in react we use react-router-dom library.
 npm install react-router-dom 
+
+How to perform routing in react 
+-install react-router-dom library
+ npm install react-router-dom 
+-to perform routing we use two library createBrowserRouter,RouterProvider
+-CreateBrouwser is one methode in which we write array of object type data.
+and in this we actually create routing for component
+
+types of routing 
+
+1.naming routing:display component output by writting its routing path name in browser url.
+2.default routing: display component output without writing its path in browser url. it path must be always blank.
+3.parameterize routing: display component output by writting its parameter with its routing path 
+4.child routing: display one rounting inside another routing. to perform this we have to use children property in parent routing and pass array of object value to it. and to display child routing component output we have to use <Outlet/> directly in parent component render or in return as tag.
+
+5.whild card routing: display component output when user enter wrong path name in browser url. to perform this we write * sign in routing path . and import thing is whild card always write at last , it bellow routing will never work.
+
+
+
+
 
 src folder 
    layout folder 

@@ -65,8 +65,8 @@ function App() {
      <ErrorBoundaryComp>
          <UserComp name="Nitesh"/>
      </ErrorBoundaryComp> */}
-     {/* <EmpDetailComp/> */}
-     <CompLifeCycleComp mycolor="Green"/>
+     {/* <EmpDetailComp/>
+     <CompLifeCycleComp mycolor="Green"/> */}
      {/* <UserComp name="Vivek"/>
      <UserComp name="Rahul"/>
      <UserComp name="Nitesh"/> */}
