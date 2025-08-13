@@ -228,10 +228,6 @@ types of routing
 
 5.whild card routing: display component output when user enter wrong path name in browser url. to perform this we write * sign in routing path . and import thing is whild card always write at last , it bellow routing will never work.
 
-
-
-
-
 src folder 
    layout folder 
        -LoginComp
@@ -250,6 +246,54 @@ src folder
 -Form Validation 
 -Class component LifeCycle Method 
 -Hooks 
+=====================================================
+13/8/25
+
+*Hookes: in react hooks allows function component to implement class component features.
+         -we can use state in function component by using hooks.
+         -hookes introduce in react version 16
+         -before using of it first we have to import it from react library.
+
+
+*Rules to use Hooks 
+-hooks will use only in function component.
+-hookes always use in top level component.
+-hookes can not be render conditionally.
+
+*there are 7 Hookes in in react 
+1.useState Hooks:
+2.useEffect Hooks:
+3.useContext Hook:
+4.useRef Hook:
+5.useReducer Hook:
+6.useMemo Hook:
+7.useCallBack Hook: 
+
+
+1.useState Hooks:
+-it allows function to use state in it.
+-it return two parameter 1. currentState, 2. functionToUpdateState
+-Syntax:    const [currentState,functionToUpdateState] = useState(values)
+
+2.useEffect Hooks:
+-it is use to perform side effect in function component.
+-side effect means, fetching data from server , use of timers and , DOM Manipulation 
+-it execute once immediatly after  component render.
+-it takes two parameter 1. useCallBack function, 2.dependency 
+syntax:   useEffect(()=>{},dependecy);
+
+case1: when no dependecy value pass (ComponentDidMount)
+syntax:   useEffect(()=>{});
+
+case2: when dependecy value pass as blanck arrray (shouldComponentUpdate)
+syntax:   useEffect(()=>{},[]);
+
+case3: when dependecy value pass in an array.
+syntax:   useEffect(()=>{},[state/props]);
+
+
+Task: create One function component and write logic to increment,decrement and reset counter valye by using state
+TAsk: display 10 employee data have id,name,post,salary,gender,address in table formate
 
 
 

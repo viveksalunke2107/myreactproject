@@ -9,8 +9,8 @@ const ReactHooksComp = () => {
       <h2>This is ReactHooks</h2>
       <div className="card border-primary">
         <div className="card-header border-primary">
-         <Link to="usestate" className='btn btn-primary btn-sm'>usestate</Link>{" "}
-        <Link to="useeffect" className='btn btn-primary btn-sm'>useeffect</Link>{" "}
+         <Link to="usestate" className='btn btn-danger btn-sm'>usestate</Link>{" "}
+        <Link to="useeffect" className='btn btn-danger btn-sm'>useeffect</Link>{" "}
           
         </div>
         <div className="card-body border-primary">
