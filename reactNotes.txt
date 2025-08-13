@@ -293,7 +293,7 @@ syntax:   useEffect(()=>{},[state/props]);
 
 
 Task: create One function component and write logic to increment,decrement and reset counter valye by using state
-TAsk: display 10 employee data have id,name,post,salary,gender,address in table formate
+TAsk: display 10 employee data have id,name,post,salary,gender,address in table format.
 
 
 

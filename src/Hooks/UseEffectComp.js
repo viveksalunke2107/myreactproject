@@ -15,16 +15,18 @@ const UseEffectComp = () => {
   //   }, []);
 
   //   case3: when dependecy value pass in an array.
-  useEffect(() => {
-    setCount(count + 1);
-  }, [salary]);
+  // useEffect(() => {
+  //   setCount(count + 1);
+  // }, [salary]);
 
   return (
     <div>
       <h2>This is useEffect Hoook componet</h2>
       <p>Count Value is:{count}</p>
       <p>Salary is:{salary}</p>
-      <button type="button" onClick={()=>setSalary(salary+1000)}>Increment Salary</button>
+      <button type="button" onClick={()=>setSalary(salary+1000)}>Increment Salary</button>{" "}
+      <button type="button" onClick={()=>setSalary(salary-1000)}>Decrement Salary</button>{" "}
+      <button type="button" onClick={()=>setSalary(0)}>Reset Salary</button>{" "}
     </div>
   );
 };
