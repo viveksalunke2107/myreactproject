@@ -22,11 +22,11 @@ const UseEffectComp = () => {
   return (
     <div>
       <h2>This is useEffect Hoook componet</h2>
-      <p>Count Value is:{count}</p>
-      <p>Salary is:{salary}</p>
-      <button type="button" onClick={()=>setSalary(salary+1000)}>Increment Salary</button>{" "}
-      <button type="button" onClick={()=>setSalary(salary-1000)}>Decrement Salary</button>{" "}
-      <button type="button" onClick={()=>setSalary(0)}>Reset Salary</button>{" "}
+      <p>Count Value is : {count}</p>
+      <p>Salary is : {salary}</p>
+      <button type="button" className='btn btn-danger btn-sm' onClick={()=>setSalary(salary+1000)}>Increment Salary</button>{" "}
+      <button type="button" className='btn btn-danger btn-sm' onClick={()=>setSalary(salary-1000)}>Decrement Salary</button>{" "}
+      <button type="button" className='btn btn-danger btn-sm' onClick={()=>setSalary(0)}>Reset Salary</button>{" "}
     </div>
   );
 };

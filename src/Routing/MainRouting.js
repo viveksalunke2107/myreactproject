@@ -7,6 +7,7 @@ import ReactHooksComp from "../Hooks/ReactHooksComp";
 import UseStateComp from "../Hooks/UseStateComp";
 import UseEffectComp from "../Hooks/UseEffectComp";
 import MainDashboardComp from "../Layout/MainDashboardComp";
+import FormValidationComp from "../Layout/FormValidationComp";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "parent/:id", element: <ParentComp /> },
       { path: "parent", element: <ParentComp /> },
       { path: "mycss", element: <CssComp /> },
+      {path:"formval",element:<FormValidationComp/>},
       //4.child routing
       {
         path: "hooks",

@@ -10,6 +10,7 @@ const NavComp = () => {
            <Link to="parent" className='btn btn-primary btn-sm'>Parent</Link>{" "}
            <Link to="mycss" className='btn btn-primary btn-sm'>myCss</Link>{" "}
            <Link to="hooks" className='btn btn-primary btn-sm'>ReactHooks</Link>{" "}
+           <Link to="formval" className='btn btn-primary btn-sm'>Forms</Link>{" "}
         </div>
     )
 }
