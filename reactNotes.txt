@@ -295,9 +295,42 @@ syntax:   useEffect(()=>{},[state/props]);
 Task: create One function component and write logic to increment,decrement and reset counter valye by using state
 TAsk: display 10 employee data have id,name,post,salary,gender,address in table format.
 ==================================================================================================
+9/9/25
 
 *Form Validation : 
 -checking forms data is as expected or not. 
+===========================================================
+10/9/25
+
+*how to create REST Fake API 
+
+Database: json Database
+fake server: json-server 
+
+*download nodejs 
+https://nodejs.org/en/download/
+
+node -v  //it show nodejs version 
+npm -v   // it show npm version 
+
+*how to install json server 
+step1: visit npmjs.com and search json-server 
+step2: copy instalation code and install json-server 
+      npm install json-server
+step2:upload db.json file on json-server 
+
+      cd src/shared/database   // set folder path for db 
+      json-server --watch -p 9999 db.json   // command to start json-server and upload db.json file.
+
+step3: install axios library , it allows us to make request to server from react app .
+        npm install axios
+
+C = create 
+R = read 
+U = update 
+D = delete 
+
+
 
 
 

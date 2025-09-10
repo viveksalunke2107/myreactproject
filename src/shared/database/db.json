@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "pname": "Laptop",
+      "pprice": "55000",
+      "pcompany": "Dell"
+    },
+    {
+      "id": 103,
+      "pname": "Keyboard",
+      "pprice": "4000",
+      "pcompany": "Toshiba"
+    },
+    {
+      "pname": "Mobile",
+      "pprice": "30000",
+      "pcompany": "Oppo",
+      "id": 104
+    },
+    {
+      "pname": "Tablet",
+      "pprice": "25000",
+      "pcompany": "Toshiba",
+      "id": 105
+    },
+    {
+      "pname": "cable Pollycap",
+      "pprice": "200",
+      "pcompany": "India",
+      "id": 106
+    }
+  ]
+}

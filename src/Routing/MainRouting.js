@@ -8,6 +8,9 @@ import UseStateComp from "../Hooks/UseStateComp";
 import UseEffectComp from "../Hooks/UseEffectComp";
 import MainDashboardComp from "../Layout/MainDashboardComp";
 import FormValidationComp from "../Layout/FormValidationComp";
+import ProductDashboardComp from "../CRUD/ProductDashboardComp";
+import ProductAddComp from "../CRUD/ProductAddComp";
+import ProductEditComp from "../CRUD/ProductEditComp";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +26,9 @@ const router = createBrowserRouter([
       { path: "parent", element: <ParentComp /> },
       { path: "mycss", element: <CssComp /> },
       {path:"formval",element:<FormValidationComp/>},
+      {path:"productdash",element:<ProductDashboardComp/>},
+      {path:"productadd",element:<ProductAddComp/>},
+      {path:"productedit/:id",element:<ProductEditComp/>},
       //4.child routing
       {
         path: "hooks",
