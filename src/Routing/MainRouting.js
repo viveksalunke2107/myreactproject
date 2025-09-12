@@ -11,8 +11,12 @@ import FormValidationComp from "../Layout/FormValidationComp";
 import ProductDashboardComp from "../CRUD/ProductDashboardComp";
 import ProductAddComp from "../CRUD/ProductAddComp";
 import ProductEditComp from "../CRUD/ProductEditComp";
+import MyCarousalComp from "../components/MyCarousalComp";
+import LoginComp from '../Layout/LoginComp';
 
 const router = createBrowserRouter([
+  {path:"",element:<LoginComp/>},
+  {path:"login",element:<LoginComp/>},
   {
     path: "maindashboard",
     element: <MainDashboardComp />,
@@ -29,6 +33,7 @@ const router = createBrowserRouter([
       {path:"productdash",element:<ProductDashboardComp/>},
       {path:"productadd",element:<ProductAddComp/>},
       {path:"productedit/:id",element:<ProductEditComp/>},
+      {path:"carousal",element:<MyCarousalComp/>},
       //4.child routing
       {
         path: "hooks",

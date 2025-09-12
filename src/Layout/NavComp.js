@@ -12,6 +12,8 @@ const NavComp = () => {
            <Link to="hooks" className='btn btn-primary btn-sm'>ReactHooks</Link>{" "}
            <Link to="formval" className='btn btn-primary btn-sm'>Forms</Link>{" "}
            <Link to="productdash" className='btn btn-outline-success btn-sm'>ProductDash</Link>{" "}
+                      <Link to="MyCarousalComp" className='btn btn-outline-success btn-sm'>Carousal</Link>{" "}
+
         </div>
     )
 }

@@ -320,7 +320,7 @@ step2: copy instalation code and install json-server
 step2:upload db.json file on json-server 
 
       cd src/shared/database   // set folder path for db 
-      json-server --watch -p 9999 db.json   // command to start json-server and upload db.json file.
+      json-server --watch -p 9999 db.json   //command to start json-server and upload db.json file.
 
 step3: install axios library , it allows us to make request to server from react app .
         npm install axios
@@ -329,9 +329,31 @@ C = create
 R = read 
 U = update 
 D = delete 
+===========================================
+12/9/25
+
+Material UI: it provide built in UI component for react project as well as it provide free icon symbol.
+
+*how to install Material UI 
+npm install @mui/material @emotion/react @emotion/styled
+*how to use Material icon 
+npm install @mui/icons-material
+
+*React-Bootstrap : it provide built in react component.
+*how to install react-bootstrap
+npm install react-bootstrap bootstrap
+
+*Boostrap: it provide built in css classes.
+
+myCarousalComp 
+
+*useRef hook: 
+-it allows us to access dom node directly as well as its value.
+-it has current object under which make node and its value accessible.
 
 
 
+==================================================
 
 
 
