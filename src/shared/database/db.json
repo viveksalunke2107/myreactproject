@@ -30,5 +30,22 @@
       "pcompany": "India",
       "id": 106
     }
+  ],
+  "users":[
+    {
+      "id": 101,
+      "userid": "akshay@gmail.com",
+      "userpassword": "akshay@123"
+    },
+    {
+      "id": 102,
+      "userid": "vivek@gmail.com",
+      "userpassword": "vivek@123"
+    },
+    {
+      "id": 103,
+      "userid": "admin@gmail.com",
+      "userpassword": "admin@123"
+    }
   ]
 }

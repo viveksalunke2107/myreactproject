@@ -1,8 +1,17 @@
 
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate ,Link} from 'react-router-dom'
 
 const NavComp = () => {
+const nav = useNavigate();
+
+    const logout=()=>{
+      if(window.confirm('are you sure to logout')){
+        sessionStorage.removeItem("user");
+        nav('/login');
+      }
+    };
+
     return (
         <div>
            {/* <h2>This is Nav Component</h2>  */}
@@ -12,8 +21,8 @@ const NavComp = () => {
            <Link to="hooks" className='btn btn-primary btn-sm'>ReactHooks</Link>{" "}
            <Link to="formval" className='btn btn-primary btn-sm'>Forms</Link>{" "}
            <Link to="productdash" className='btn btn-outline-success btn-sm'>ProductDash</Link>{" "}
-                      <Link to="MyCarousalComp" className='btn btn-outline-success btn-sm'>Carousal</Link>{" "}
-
+           <Link to="carousal" className='btn btn-outline-success btn-sm'>Carousal</Link>{" "}
+            <button type='button' style={{float:"right"}} onClick={logout} className='btn btn-outline-danger btn-sm'>Logout</button>{" "}
         </div>
     )
 }

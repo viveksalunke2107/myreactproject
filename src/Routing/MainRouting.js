@@ -13,13 +13,15 @@ import ProductAddComp from "../CRUD/ProductAddComp";
 import ProductEditComp from "../CRUD/ProductEditComp";
 import MyCarousalComp from "../components/MyCarousalComp";
 import LoginComp from '../Layout/LoginComp';
-
+import ProtectedRoutingComp from './ProtectedRoutingComp'
+import LogoutComp from '../Layout/LogoutComp';
 const router = createBrowserRouter([
   {path:"",element:<LoginComp/>},
   {path:"login",element:<LoginComp/>},
   {
     path: "maindashboard",
-    element: <MainDashboardComp />,
+    // element: <MainDashboardComp />,
+    element: <ProtectedRoutingComp Component={MainDashboardComp} />,
     children: [
       // 2. default routing
       { path: "", element: <MyImagesComp /> },
@@ -34,6 +36,7 @@ const router = createBrowserRouter([
       {path:"productadd",element:<ProductAddComp/>},
       {path:"productedit/:id",element:<ProductEditComp/>},
       {path:"carousal",element:<MyCarousalComp/>},
+      {path:"logout",element:<LogoutComp/>},
       //4.child routing
       {
         path: "hooks",

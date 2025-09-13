@@ -350,23 +350,41 @@ myCarousalComp
 *useRef hook: 
 -it allows us to access dom node directly as well as its value.
 -it has current object under which make node and its value accessible.
-
-
-
 ==================================================
 
+*Webstorage API : 
+-it is use to store user data on browser.
+-there are two types of web storage.
+1.local storage: it is use to store user data permanantly.
+2.session storage :it is use tostore user data for limited time. 
 
+localStorage.setItem("user1","akshay");
+localStorage.getItem("user2");
+localStorage.removeItem("user3");
+localStorage.clear();
 
+!sessionStorage.getItem("user");  // when data is available in session storage
+false
 
+!sessionStorage.getItem("user"); // when data is not available in session storage
+true
 
+*protected Routing 
 
+*login with valid credentials 
+*log  functionality. 
 
+*concurrently : it execute multiple command simulteniously.
+npm i -g concurrently
 
+"json-server":"cd src/shared/database &&  json-server --watch -p 9999 db.json",
+"start-dev": "concurrently 'npm start' 'npm run json-server'",
 
+npm start 
+npm run json-server  
 
-
-
-
+npm run start-dev
+=============================================
 
 
 
